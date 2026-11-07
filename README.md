@@ -2,7 +2,7 @@
 
 Dashboard em Excel que transforma uma base de assinaturas do Game Pass em indicadores e gráficos fáceis de ler. Feito como desafio da DIO.
 
-Arquivo: `Dashboard_GamePass_Melissa.xlsx`
+Arquivo: `Dashboard_GamePass.xlsx`
 
 ## Dados utilizados
 
@@ -65,4 +65,6 @@ O exemplo usa tabelas dinâmicas e segmentações de dados. No meu painel, os c�
 
 ## O que aprendi
 
-> Escreva aqui, com as suas palavras, o que você aprendeu (por exemplo: organizar dados em tabela, usar SOMASES e CONT.SES, criar gráficos ligados a filtros) e quais dificuldades teve.
+> Neste projeto aprendi a transformar dados brutos em um painel visual no Excel. Organizei a base em uma **tabela** e criei **intervalos nomeados** para cada coluna, o que deixou as fórmulas mais fáceis de ler. Usei `SOMASES` e `CONT.SES` para responder às perguntas de negócio, como faturamento por plano, por tipo de assinatura e mês a mês, e usei **listas suspensas** como filtros que atualizam todo o painel ao mesmo tempo.
+
+Também pratiquei a escolha do gráfico certo para cada pergunta (colunas para comparar planos, rosca para mostrar proporção e linha para acompanhar a evolução no tempo) e a organização do layout, com indicadores em destaque no topo e imagens para deixar o painel mais claro. Por fim, aprendi a documentar o projeto em um README e a compartilhá-lo no GitHub.
